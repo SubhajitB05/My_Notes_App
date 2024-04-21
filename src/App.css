@@ -1,38 +1,92 @@
-.App {
+
+.heading{
   text-align: center;
+  margin: 2rem 0;
+}
+.input-box{
+  width: 25rem;
+  height: 3rem;
+  font-size: 1rem;
+  padding: 0 3rem 0 1rem;
+  border-radius: 1.5rem;
+  margin:0 1rem 2rem;
+}
+.input-parent{
+  position: relative;
+}
+.add-icon{
+  position: absolute;
+  right: 7%;
+  top: 14%;
+  color:#292c2e;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.text-box{
+  resize: none;
+  width: 25rem;
+  min-height: 1rem;
+  padding: 1rem 2.8rem 1rem 2rem;
+  border-radius: 1.3rem;
+  border-bottom-right-radius: 0;
+  font-size: 1rem;
+  margin: 0 1rem 0.5rem;
+  
+}
+.conatiner{
+  position: relative;
+}
+.icon1, .icon2, .save-btn{
+  position: absolute;
+  right: 6%;
+  cursor: pointer;
+  width: 1rem;
+  height: 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.icon1, .save-btn{
+  bottom: 38%;
+}
+.icon1{
+  color: #292c2e;
+}
+.save-btn{
+  color: green;
+}
+.icon2{
+  bottom: 17%;
+  color: red;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: rgba(16, 186, 188, 0.688);
+  border-color: rgb(15, 195, 198);
   color: white;
+  cursor: pointer;
+  position: relative;
+  top: -100%;
+  right: -30%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 445px){
+  .input-box, .text-box{
+    width: 20rem;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (max-width: 385px){
+  .input-box, .text-box{
+    width: 18rem;
+  }
+  .icon1, .icon2, .save-btn{
+    right:7%;
+  }
+  .text-box{
+    padding: 0.5rem 1.8rem 0.5rem 1rem;
   }
 }

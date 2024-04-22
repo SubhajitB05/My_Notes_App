@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/SubhajitB05/Notes-App/static/css/main.9cb3891f.css",
-    "main.js": "/SubhajitB05/Notes-App/static/js/main.9ffc8615.js",
-    "index.html": "/SubhajitB05/Notes-App/index.html",
-    "main.9cb3891f.css.map": "/SubhajitB05/Notes-App/static/css/main.9cb3891f.css.map",
-    "main.9ffc8615.js.map": "/SubhajitB05/Notes-App/static/js/main.9ffc8615.js.map"
+    "main.css": "/Notes_App/static/css/main.9cb3891f.css",
+    "main.js": "/Notes_App/static/js/main.9ffc8615.js",
+    "index.html": "/Notes_App/index.html",
+    "main.9cb3891f.css.map": "/Notes_App/static/css/main.9cb3891f.css.map",
+    "main.9ffc8615.js.map": "/Notes_App/static/js/main.9ffc8615.js.map"
   },
   "entrypoints": [
     "static/css/main.9cb3891f.css",
